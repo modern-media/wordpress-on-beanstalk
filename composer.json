@@ -1,0 +1,14 @@
+{
+	"name" : "your-org/myapp",
+	"description": "A WordPress app",
+	"license" : "proprietary",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:your-org/your-private-repo.git"
+		}
+	],
+	"require": {
+		"modern-media/wp-lib": "dev-master"
+	}
+}
